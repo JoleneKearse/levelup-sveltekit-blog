@@ -1,11 +1,12 @@
-<header>
-  <h1>Level Up Blog</h1>
-</header>
+<script>
+  import Header from "./Header.svelte";
+  import Footer from "./Footer.svelte";
+</script>
+
+<Header />
 
 <main>
   <slot />
 </main>
 
-<footer>
-  <p>&#169; Level Up Tutorials</p>
-</footer>
+<Footer />
