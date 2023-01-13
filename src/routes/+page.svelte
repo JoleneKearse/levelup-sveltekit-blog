@@ -1,5 +1,6 @@
 <script>
-  import Test from '$lib/Test.svelte'
+  import Test from '$lib/Test.svelte';
+  import '$db/start'
 </script>
 
 <h1>Welcome to SvelteKit</h1>
