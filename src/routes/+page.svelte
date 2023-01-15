@@ -1,7 +1,7 @@
 <script>
   import Test from '$lib/Test.svelte';
   import '$db/start';
-  export let data 
+  export let data; 
 </script>
 
 <h1>{data.hello}</h1>
