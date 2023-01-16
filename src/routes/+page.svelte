@@ -1,12 +1,25 @@
 <script>
   import Test from '$lib/Test.svelte';
   import '$db/start';
-  export let data; 
+  export let data;
+  
+  $: ({ latest_episode, all_episodes } = data)
 </script>
 
-<h1>{data.hello}</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h3>{latest_episode.title}</h3>
+
+<nav>
+  {#each all_episodes as episode}
+    <a href="">{episode.title}</a>
+  {/each}
+</nav>
 
 <a href="/about">About Us</a>
 
 <Test />
+
+<style>
+  h1 {
+    line-height: 1.25;
+  }
+</style>
