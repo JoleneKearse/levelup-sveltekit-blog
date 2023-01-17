@@ -1,5 +1,6 @@
 <script>
   export let data;
+  
   $: ({episode} = data);
 </script>
 
