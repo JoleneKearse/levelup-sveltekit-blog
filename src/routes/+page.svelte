@@ -10,7 +10,7 @@
 
 <nav>
   {#each all_episodes as episode}
-    <a href="">{episode.title}</a>
+    <a href={`/show${episode.number}`}>{episode.title}</a>
   {/each}
 </nav>
 
