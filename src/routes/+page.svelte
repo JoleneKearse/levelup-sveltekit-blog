@@ -19,7 +19,7 @@
 <Test />
 
 <style>
-  h1 {
+  h3 {
     line-height: 1.25;
   }
 </style>

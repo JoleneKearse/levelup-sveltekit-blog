@@ -5,3 +5,5 @@
 </script>
 
 <h1>{episode.title}</h1>
+
+{@html episode.html}
