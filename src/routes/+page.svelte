@@ -8,12 +8,6 @@
 
 <h3>{latest_episode.title}</h3>
 
-<nav>
-  {#each all_episodes as episode}
-    <a href={`/show/${episode.number}`}>{episode.title}</a>
-  {/each}
-</nav>
-
 <a href="/about">About Us</a>
 
 <Test />
