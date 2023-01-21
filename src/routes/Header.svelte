@@ -7,6 +7,7 @@
     padding: 1rem;
     background: #333;
     color: #fffffe;
+    text-align: center;
   }
   h1 {
     font-size: 1em;

@@ -11,8 +11,23 @@
 <Header />
 
 <main>
-  <slot />
-  <Episodes episodes={all_episodes} />
+  <div class="main">
+    <slot />
+  </div>
+  <aside>
+    <Episodes episodes={all_episodes} />
+  </aside>
 </main>
 
 <Footer />
+
+<style>
+  main {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 2em;
+  }
+  aside {
+    order: -1;
+  }
+</style>
